@@ -1,0 +1,70 @@
+*{margin: 0px;padding: 0px;}
+
+#mine{
+	margin: 50px auto;
+}
+.level{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.level button{
+	padding: 5px 15px;
+	background-color: skyblue;
+	border: 1px solid black;
+	cursor: pointer;
+	outline: none;
+}
+button.active{
+	background-color: teal;	
+}
+table{
+	border: 1px solid black;
+	border-spacing: 1px;
+	background: floralwhite;
+	margin: 0 auto;
+}
+td{
+	padding: 0px;
+	height: 20px;
+	width: 20px;	
+	background: gray;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+}
+.info{
+	margin-top: 10px;
+	text-align: center;
+}
+.mine{
+	background:white url(../img/mine.png) no-repeat center;
+	background-size:cover;
+}
+.flag{
+	background:white url(../img/flag.png) no-repeat center;
+	background-size:cover;
+}
+td.zero{
+	background: skyblue;
+}
+td.one{
+	background: darkgray;
+}
+td.three{
+	background: darkkhaki;
+}
+td.four{
+	background: darkolivegreen;
+}
+td.five{
+	background: floralwhite;
+}
+td.six{
+	background: fuchsia;
+}
+td.seven{
+	background: blanchedalmond;
+}
+td.eight{
+	background: navajowhite;
+}
